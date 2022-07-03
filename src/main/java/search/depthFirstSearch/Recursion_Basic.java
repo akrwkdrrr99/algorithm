@@ -1,4 +1,4 @@
-package depthFirstSearch;
+package search.depthFirstSearch;
 import java.util.Scanner;
 
 //todo: factorial

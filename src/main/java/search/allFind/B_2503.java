@@ -1,4 +1,4 @@
-package allFind;
+package search.allFind;
 
 import java.io.BufferedReader;
 import java.io.IOException;

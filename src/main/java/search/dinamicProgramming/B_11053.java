@@ -1,4 +1,4 @@
-package dinamicProgramming;
+package search.dinamicProgramming;
 
 import java.io.BufferedReader;
 import java.io.IOException;
