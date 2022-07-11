@@ -1,7 +1,7 @@
 package sort;
 
+//O(n2) 선택정렬
 public class SelectionSort {
-    //O(n2) 버블정렬
     public static void main(String[] args) {
         int[] arr = {15, 31, 5, 66, 9};
         selectionSort(arr);

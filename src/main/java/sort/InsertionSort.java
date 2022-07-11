@@ -1,5 +1,6 @@
 package sort;
 
+//O(n2) 삽입정렬
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {15, 31, 5, 66, 9};
