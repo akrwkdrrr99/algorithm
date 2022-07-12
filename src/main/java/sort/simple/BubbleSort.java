@@ -1,4 +1,4 @@
-package sort;
+package sort.simple;
 
 //O(n2) 버블정렬
 public class BubbleSort {

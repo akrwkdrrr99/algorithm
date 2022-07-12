@@ -1,4 +1,4 @@
-package sort;
+package sort.simple;
 
 //O(n2) 삽입정렬
 public class InsertionSort {

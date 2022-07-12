@@ -1,4 +1,4 @@
-package sort;
+package sort.simple;
 
 //O(n2) 선택정렬
 public class SelectionSort {

@@ -1,4 +1,4 @@
-package sort;
+package sort.simple;
 
 // 퀵 정렬  최소 O(n logn) ~ O(n2)
 public class QuickSort {
