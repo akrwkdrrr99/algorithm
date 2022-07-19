@@ -29,7 +29,6 @@ public class B_13263 {
 
         for (int i = 1; i < n; ++i) {
             Line g = new Line(b[i - 1], dp[i - 1]);
-
             while (s.size() >= 1) {
                 g.s = cross(g, s.get(s.size() - 1));
                 if (g.s < s.get(s.size() - 1).s) {
@@ -42,7 +41,7 @@ public class B_13263 {
 
             int left = 0, right = s.size() - 1;
             while (left <= right) {
-                int mid = (left + right) / 2;
+                int mid = (left + right) >>> 1; // 비트 연산자로 표기
                 if (s.get(mid).s < x) {
                     fpos = mid;
                     left = mid + 1;
