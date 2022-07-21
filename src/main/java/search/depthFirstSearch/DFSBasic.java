@@ -50,9 +50,12 @@ public class DFSBasic {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
         v = Integer.parseInt(st.nextToken());
+
         map =new int[n+1][n+1];
         visit = new boolean[n+1];
         arrayList = new ArrayList<>();
+
+        //초기화
         for(int j=0; j<n+1;j++){
             Arrays.fill(map[j], 0);
             arrayList.add(new TreeMap<Integer, Integer>());
