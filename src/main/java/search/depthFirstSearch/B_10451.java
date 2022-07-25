@@ -1,4 +1,4 @@
-package search.breadthFirstSearch;
+package search.depthFirstSearch;
 
 import java.io.BufferedReader;
 import java.io.IOException;
