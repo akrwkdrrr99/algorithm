@@ -21,12 +21,13 @@ public class B_2663_b {
         visited = new boolean[N][N];
 
         //전체 사각형 입력 받기
-        for(int i=0; i<N; i++){
-            String input = br.readLine();
+        for(int i=0; i<N;i++){
+            StringTokenizer st=new StringTokenizer(br.readLine()," ");
             for(int j=0; j<N; j++){
-                map[i][j] = input.charAt(j)-'0';
+                map[i][j] = Integer.parseInt(st.nextToken());
             }
         }
+
 
         count = 0;
         houses = new ArrayList<>();
