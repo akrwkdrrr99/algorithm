@@ -4,7 +4,6 @@ import java.util.*;
 import java.io.*;
 
 public class B_11724 {
-    static ArrayList<ArrayList<Integer>> list;
     static int N;
     static boolean[][] map;
     static boolean[] visited;
