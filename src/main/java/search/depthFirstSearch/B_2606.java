@@ -34,6 +34,7 @@ public class B_2606 {
 
         dfs(1);
         System.out.println(count-1); // 1번 컴퓨터는 제외해야 하므로 -1을 해준다.
+    }
 
         //todo: bfs
 //        node=new int[n+1][n+1];
@@ -49,7 +50,6 @@ public class B_2606 {
 //        }
 //
 //        bfs(1);
-    }
 //    static void bfs(int start) { // BFS 메소드
 //        Queue<Integer> queue = new LinkedList<>();
 //
