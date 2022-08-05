@@ -31,7 +31,7 @@ public class B_4008 {
         }
 
         bw.write(solve()+"");
-
+ 
         br.close();
         bw.flush();
         bw.close();
